@@ -110,7 +110,6 @@ export default class DetailsPage extends Component {
                   align="center"
                   direction="row"
                   responsive={false}
-                  colorIndex="light"
                 >
                   <SocialShare
                     type="email"
