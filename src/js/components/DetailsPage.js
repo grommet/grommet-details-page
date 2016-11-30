@@ -110,27 +110,27 @@ export default class DetailsPage extends Component {
                   align="center"
                   direction="row"
                   responsive={false}
-                  colorIndex="light"
+                  colorIndex="light-1"
                 >
                   <SocialShare
                     type="email"
                     link="http://www.grommet.io/docs/"
-                    colorIndex="grey-4"
+                    colorIndex="grey-1"
                   />
                   <SocialShare
                     type="twitter"
                     link="http://www.grommet.io/docs/"
-                    colorIndex="grey-4"
+                    colorIndex="grey-1"
                   />
                   <SocialShare
                     type="facebook"
                     link="http://www.grommet.io/docs/"
-                    colorIndex="grey-4"
+                    colorIndex="grey-1"
                   />
                   <SocialShare
                     type="linkedin"
                     link="http://www.grommet.io/docs/"
-                    colorIndex="grey-4"
+                    colorIndex="grey-1"
                   />
                 </Box>
               </Box>
@@ -432,7 +432,7 @@ export default class DetailsPage extends Component {
             </Paragraph>
             <Box margin={{top: 'large'}}>
               <Video>
-                <source src="/docs/video/test.mp4" type="video/mp4" />
+                <source src="/video/test.mp4" type="video/mp4" />
               </Video>
               <Paragraph margin="small">
                 Photos by Michael Blumenfeld
