@@ -110,27 +110,26 @@ export default class DetailsPage extends Component {
                   align="center"
                   direction="row"
                   responsive={false}
-                  colorIndex="light-1"
                 >
                   <SocialShare
                     type="email"
                     link="http://www.grommet.io/docs/"
-                    colorIndex="grey-1"
+                    colorIndex="grey-3"
                   />
                   <SocialShare
                     type="twitter"
                     link="http://www.grommet.io/docs/"
-                    colorIndex="grey-1"
+                    colorIndex="grey-3"
                   />
                   <SocialShare
                     type="facebook"
                     link="http://www.grommet.io/docs/"
-                    colorIndex="grey-1"
+                    colorIndex="grey-3"
                   />
                   <SocialShare
                     type="linkedin"
                     link="http://www.grommet.io/docs/"
-                    colorIndex="grey-1"
+                    colorIndex="grey-3"
                   />
                 </Box>
               </Box>
