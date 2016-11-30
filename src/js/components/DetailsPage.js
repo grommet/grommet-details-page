@@ -431,7 +431,7 @@ export default class DetailsPage extends Component {
             </Paragraph>
             <Box margin={{top: 'large'}}>
               <Video>
-                <source src="/docs/video/test.mp4" type="video/mp4" />
+                <source src="/video/test.mp4" type="video/mp4" />
               </Video>
               <Paragraph margin="small">
                 Photos by Michael Blumenfeld
