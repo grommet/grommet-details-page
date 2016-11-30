@@ -497,7 +497,7 @@ export default class DetailsPage extends Component {
         <Section
           align="center"
           pad="large"
-          colorIndex="accent-2-t"
+          colorIndex="neutral-1"
         >
           <Box
             align="center"
