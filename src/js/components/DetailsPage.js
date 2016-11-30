@@ -83,7 +83,7 @@ export default class DetailsPage extends Component {
               </Paragraph>
             </Box>
             <Box basis="1/3">
-              <Image src="/docs/img/case_study.png" alt="example image" />
+              <Image src="/img/case_study.png" alt="example image" />
               <Box margin={{top: 'medium'}}>
                 <Label size="small" uppercase>The Author</Label>
                 <Paragraph size="large" margin="none">
@@ -140,7 +140,7 @@ export default class DetailsPage extends Component {
 
         <Section pad="none" align="center">
           <Box full="horizontal">
-            <Image full src="/docs/img/section-1.jpg" />
+            <Image full src="/img/section-1.jpg" />
           </Box>
           <Box
             direction="row"
@@ -224,7 +224,7 @@ export default class DetailsPage extends Component {
               </Paragraph>
               <Heading tag="h3" margin="none">Highlights</Heading>
               <Box margin={{vertical: 'small'}}>
-                <Image src="/docs/img/case_study.png" alt="example image" />
+                <Image src="/img/case_study.png" alt="example image" />
                 <Paragraph margin="small">
                   Lorem delectus accusantium alias voluptate explicabo? Quaerat
                   eius veniam corrupti laboriosam odio, consectetur, autem
@@ -235,7 +235,7 @@ export default class DetailsPage extends Component {
                 </Box>
               </Box>
               <Box margin={{vertical: 'small'}}>
-                <Image src="/docs/img/case_study.png" alt="example image" />
+                <Image src="/img/case_study.png" alt="example image" />
                 <Paragraph margin="small">
                   Lorem delectus accusantium alias voluptate explicabo? Quaerat
                   eius veniam corrupti laboriosam odio, consectetur, autem
@@ -344,7 +344,7 @@ export default class DetailsPage extends Component {
               <Box pad={{vertical: 'medium'}}>
                 <Image
                   full="horizontal"
-                  src="/docs/img/marquee.jpg"
+                  src="/img/marquee.jpg"
                   alt="smaple image"
                 />
               </Box>
@@ -401,13 +401,13 @@ export default class DetailsPage extends Component {
 
         <Box direction="row" justify="between" full="horizontal" pad={{between: 'medium'}}>
           <Box full="horizontal">
-            <Image full size="large" src="/docs/img/case_study.png" alt="example image" />
+            <Image full size="large" src="/img/case_study.png" alt="example image" />
           </Box>
           <Box full="horizontal">
-            <Image full size="large" src="/docs/img/case_study.png" alt="example image" />
+            <Image full size="large" src="/img/case_study.png" alt="example image" />
           </Box>
           <Box full="horizontal">
-            <Image full size="large" src="/docs/img/case_study.png" alt="example image" />
+            <Image full size="large" src="/img/case_study.png" alt="example image" />
           </Box>
         </Box>
 
