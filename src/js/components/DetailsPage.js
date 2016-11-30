@@ -114,22 +114,22 @@ export default class DetailsPage extends Component {
                   <SocialShare
                     type="email"
                     link="http://www.grommet.io/docs/"
-                    colorIndex="grey-4"
+                    colorIndex="grey-1"
                   />
                   <SocialShare
                     type="twitter"
                     link="http://www.grommet.io/docs/"
-                    colorIndex="grey-4"
+                    colorIndex="grey-1"
                   />
                   <SocialShare
                     type="facebook"
                     link="http://www.grommet.io/docs/"
-                    colorIndex="grey-4"
+                    colorIndex="grey-1"
                   />
                   <SocialShare
                     type="linkedin"
                     link="http://www.grommet.io/docs/"
-                    colorIndex="grey-4"
+                    colorIndex="grey-1"
                   />
                 </Box>
               </Box>
