@@ -4,6 +4,7 @@ import Box from 'grommet/components/Box';
 import Button from 'grommet/components/Button';
 import Card from 'grommet/components/Card';
 import Chart, { Area, Axis, Base, Layers } from 'grommet/components/chart/Chart';
+import Footer from 'grommet/components/Footer';
 import FormField from 'grommet/components/FormField';
 import Heading from 'grommet/components/Heading';
 import Hero from 'grommet/components/Hero';
@@ -15,11 +16,13 @@ import Section from 'grommet/components/Section';
 import SocialShare from 'grommet/components/SocialShare';
 import Video from 'grommet/components/Video';
 import CirclePlayIcon from 'grommet/components/icons/base/CirclePlay';
+import Header from './Header';
 
 export default class DetailsPage extends Component {
   render() {
     return (
       <Box>
+        <Header />
         <Hero size="large" backgroundImage="/img/marquee.jpg" colorIndex="grey-1"
           justify="start">
           <Card
@@ -493,47 +496,50 @@ export default class DetailsPage extends Component {
             </Paragraph>
           </Box>
         </Section>
-        <Section
-          align="center"
-          pad="large"
-          colorIndex="neutral-1"
-        >
-          <Box
+        <Footer>
+          <Section
             align="center"
-            direction="row"
-            size={{width: 'xxlarge'}}
+            pad="large"
+            colorIndex="neutral-1"
+            full="horizontal"
           >
-            <Box basis="1/2" pad={{horizontal: 'large'}}>
-              <Label uppercase>Share the article</Label>
-              <Box direction="row" responsive={false} pad={{between: 'medium'}}>
-                <FormField>
-                  <input
-                    type="text"
-                    value="http://www.grommet.io/docs/"
-                    readOnly
-                  />
-                </FormField>
-                <Button label="COPY" onClick={() => console.log('hello')} />
-              </Box>
-              <Box direction="row" margin={{top: 'medium'}} responsive={false}>
-                <SocialShare type="email" link="http://www.grommet.io/docs/" />
-                <SocialShare type="twitter" link="http://www.grommet.io/docs/" />
-                <SocialShare type="facebook" link="http://www.grommet.io/docs/" />
-                <SocialShare type="linkedin" link="http://www.grommet.io/docs/" />
-              </Box>
-            </Box>
-            <Card
-              contentPad="large"
-              basis="1/2"
+            <Box
+              align="center"
               direction="row"
-              heading="Pellentesque porta ut augue ac ultricies."
-              label="Next Article"
-              link={<Anchor href="http://www.grommet.io/docs/" primary={true}>
-                Learn More</Anchor>}
-              separator="left"
-            />
-          </Box>
-        </Section>
+              size={{width: 'xxlarge'}}
+            >
+              <Box basis="1/2" pad={{horizontal: 'large'}}>
+                <Label uppercase>Share the article</Label>
+                <Box direction="row" responsive={false} pad={{between: 'medium'}}>
+                  <FormField>
+                    <input
+                      type="text"
+                      value="http://www.grommet.io/docs/"
+                      readOnly
+                    />
+                  </FormField>
+                  <Button label="COPY" onClick={() => console.log('hello')} />
+                </Box>
+                <Box direction="row" margin={{top: 'medium'}} responsive={false}>
+                  <SocialShare type="email" link="http://www.grommet.io/docs/" />
+                  <SocialShare type="twitter" link="http://www.grommet.io/docs/" />
+                  <SocialShare type="facebook" link="http://www.grommet.io/docs/" />
+                  <SocialShare type="linkedin" link="http://www.grommet.io/docs/" />
+                </Box>
+              </Box>
+              <Card
+                contentPad="large"
+                basis="1/2"
+                direction="row"
+                heading="Pellentesque porta ut augue ac ultricies."
+                label="Next Article"
+                link={<Anchor href="http://www.grommet.io/docs/" primary={true}>
+                  Learn More</Anchor>}
+                separator="left"
+              />
+            </Box>
+          </Section>
+        </Footer>
       </Box>
     );
   }
