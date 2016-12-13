@@ -11,7 +11,7 @@ export default function AppHeader (props) {
     <Header justify="center" colorIndex="neutral-4">
       <Box size={{width: {max: 'xxlarge'}}} direction="row"
         responsive={false} justify="start" align="center" 
-        pad={{horizontal: 'medium'}}>
+        pad={{horizontal: 'medium'}} flex="grow">
         <GrommetIcon colorIndex="brand" size="large" />
         <Box pad="small" />
         <Menu label="Label" inline={true} direction="row">
