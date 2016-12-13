@@ -430,7 +430,7 @@ export default class DetailsPage extends Component {
               debitis sed mollitia laudantium sit?
             </Paragraph>
             <Box margin={{top: 'large'}}>
-              <Video>
+              <Video full={true}>
                 <source src="/video/test.mp4" type="video/mp4" />
               </Video>
               <Paragraph margin="small">
@@ -524,8 +524,6 @@ export default class DetailsPage extends Component {
             </Box>
             <Card
               contentPad="large"
-              basis="1/2"
-              direction="row"
               heading="Pellentesque porta ut augue ac ultricies."
               label="Next Article"
               link={<Anchor href="http://www.grommet.io/docs/" primary={true}>
