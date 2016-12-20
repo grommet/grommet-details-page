@@ -1,4 +1,6 @@
-# Grommet Details Page Template
+# Grommet Detail Page Template
+
+#### [Demo](https://grommet-details-page-vanilla.herokuapp.com/)
 
 To run the website execute the following:
 
@@ -23,5 +25,5 @@ To run the website execute the following:
   4. Run the back-end server:
 
       ```
-      $ node server/server.js
+      $ npm start
       ```
