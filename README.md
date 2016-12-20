@@ -1,6 +1,6 @@
 # Grommet Details Page Template
 
-#### [Demo](https://grommet-primary-page-hpe.herokuapp.com/)
+#### [Demo](https://grommet-details-page-hpe.herokuapp.com/)
 
 To run the website execute the following:
 
